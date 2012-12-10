@@ -34,7 +34,7 @@ function balloons_options_page_fields() {
 		"title"   => __( 'Choose your frontend language', 'balloons_textdomain' ),
 		"type"    => "select",
 		"std"    => "English",
-		"choices" => array( "English", "Deutsch")
+		"choices" => array( "English", "Deutsch", "Spanish")
 	);
 	
 

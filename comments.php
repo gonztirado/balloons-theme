@@ -9,6 +9,8 @@
 						
 				<?php if ( ($balloons_option['balloons_select-language'] == 'English') OR ($balloons_option['balloons_select-language'] == '') ) { ?>
         			<h2>Write a comment</h2>
+        		<?php } else if ($balloons_option['balloons_select-language'] == 'Spanish') { ?>
+        			<h2>Escribe un comentario</h2>	
         		<?php } else { ?>
         			<h2>Einen Kommentar schreiben</h2> 
         		<?php } ?> 			
@@ -24,7 +26,13 @@
 						<p><?php printf(__('Logged in as %s.'), '<a href="'.get_option('siteurl').'/wp-admin/profile.php">'.$user_identity.'</a>'); ?> 
 						<a href="<?php echo wp_logout_url(get_permalink()); ?>" title="<?php _e('Log out of this account') ?>">
 						<?php _e('Log out'); ?></a></p>
-					
+						
+					<?php } else if ($balloons_option['balloons_select-language'] == 'Spanish') { ?>
+						
+						<p><?php printf(__('Accediendo como %s.'), '<a href="'.get_option('siteurl').'/wp-admin/profile.php">'.$user_identity.'</a>'); ?> 
+						<a href="<?php echo wp_logout_url(get_permalink()); ?>" title="<?php _e('Cerrar sesión de esta cuenta') ?>">
+						<?php _e('Cerrar sesión'); ?></a></p>
+						
         			<?php } else { ?>
         		
 						<p><?php printf(__('Eingeloggt als %s.'), '<a href="'.get_option('siteurl').'/wp-admin/profile.php">'.$user_identity.'</a>'); ?> 
@@ -41,6 +49,8 @@
 				
 					<?php if ( ($balloons_option['balloons_select-language'] == 'English') OR ($balloons_option['balloons_select-language'] == '') ) { ?>
 				    	<p>E-mail *<br />
+				    <?php } else if ($balloons_option['balloons_select-language'] == 'Spanish') { ?>
+				    	<p>Correo electrónico *<br />		
     			    <?php } else { ?>
 				    	<p>eMail *<br />
     			    <?php } ?> 
@@ -55,6 +65,8 @@
 
 					<?php if ( ($balloons_option['balloons_select-language'] == 'English') OR ($balloons_option['balloons_select-language'] == '') ) { ?>
 					    <p>Message *<br />
+					<?php } else if ($balloons_option['balloons_select-language'] == 'Spanish') { ?>
+						<p>Mensaje *<br />   	
     				<?php } else { ?>
 					    <p>Nachricht *<br />
     				<?php } ?> 
@@ -62,6 +74,8 @@
 
 					<?php if ( ($balloons_option['balloons_select-language'] == 'English') OR ($balloons_option['balloons_select-language'] == '') ) { ?>
 				    	<input name="submit" type="submit" value="<?php esc_attr_e('Submit'); ?>" class="submit" />
+				    <?php } else if ($balloons_option['balloons_select-language'] == 'Spanish') { ?>
+				    	<input name="submit" type="submit" value="<?php esc_attr_e('Enviar'); ?>" class="submit" />	
     			    <?php } else { ?>
 				    	<input name="submit" type="submit" value="<?php esc_attr_e('Abschicken'); ?>" class="submit" />
     			    <?php } ?> 
@@ -78,6 +92,8 @@
 			<p><h2>
 				<?php if ( ($balloons_option['balloons_select-language'] == 'English') OR ($balloons_option['balloons_select-language'] == '') ) {
     			    _e('Comments are closed.'); 
+				} else if ($balloons_option['balloons_select-language'] == 'Spanish') {
+					_e('Los comentarios están desactivados.'); 	
     			} else { 	
     			    _e('Die Kommentarfunktion ist deaktiviert.');    						
     			} ?> 				
@@ -89,7 +105,9 @@
 
 			<h2>
 				<?php if ( ($balloons_option['balloons_select-language'] == 'English') OR ($balloons_option['balloons_select-language'] == '') ) { 
-				    comments_number(__('0 Comments'), __('1 Comment'), __('% Comments'));    						
+				    comments_number(__('0 Comments'), __('1 Comment'), __('% Comments'));				
+				} else if ($balloons_option['balloons_select-language'] == 'Spanish') {
+					comments_number(__('0 Comentarios'), __('1 Comentario'), __('% Comments'));	    						
 				} else { 	
 				    comments_number(__('0 Kommentare'), __('1 Kommentar'), __('% Kommentare'));	    						
 				} ?> 
@@ -111,7 +129,9 @@
 						<p>			
 							<?php if ( ($balloons_option['balloons_select-language'] == 'English') OR ($balloons_option['balloons_select-language'] == '') ) { ?>
     						 	<?php the_time(__('m/d/y')); ?> &ndash; <?php comment_time(__('g:i a')); ?>
-    					<?php } else {  ?>
+    						<?php } else if ($balloons_option['balloons_select-language'] == 'Spanish') { ?>
+    							 <?php the_time(__('d/m/y')); ?> &ndash; <?php comment_time(__('g:i a')); ?>	
+    						<?php } else {  ?>
     							<?php the_time(__('d.m.y')); ?> &ndash; <?php comment_time(__('G:i')); ?>
     						<?php } ?> 
 						</p>
@@ -128,6 +148,8 @@
 				<p>
 					<?php if ( ($balloons_option['balloons_select-language'] == 'English') OR ($balloons_option['balloons_select-language'] == '') ) { ?>
 					    There are no comments yet.
+					<?php } else if ($balloons_option['balloons_select-language'] == 'Spanish') { ?>
+						No hay comentarios.    
     				<?php } else { ?>
 					    Bisher gibt es noch Kommentare zu diesem Eintrag.
     				<?php } ?> 

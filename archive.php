@@ -5,6 +5,8 @@
 						
 				<?php if ( ($balloons_option['balloons_select-language'] == 'English') OR ($balloons_option['balloons_select-language'] == '') ) { ?>
 					<h2>Archives</h2>
+				<?php } else if ($balloons_option['balloons_select-language'] == 'Spanish') { ?>
+					<h2>Archivo</h2>	
 				<?php } else { ?>
 					<h2>Archiv</h2>
 				<?php } ?>

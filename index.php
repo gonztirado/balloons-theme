@@ -12,7 +12,9 @@
 						
 						<div class="meta"><p>	
 							<?php if ( ($balloons_option['balloons_select-language'] == 'English') OR ($balloons_option['balloons_select-language'] == '') ) { 
-    							the_time(__('m/d/y'));
+    							the_time(__('m/d/y'));															
+							} else if ($balloons_option['balloons_select-language'] == 'Spanish') {
+								the_time(__('d/m/y'));	
     						} else { 
     							the_time(__('d.m.y'));
     						} ?> 

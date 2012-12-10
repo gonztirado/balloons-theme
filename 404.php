@@ -7,6 +7,8 @@
 				
 				<?php if ( ($balloons_option['balloons_select-language'] == 'English') OR ($balloons_option['balloons_select-language'] == '') ) { ?>
 				    <h3>Page not found.</h3>
+				<?php } else if ($balloons_option['balloons_select-language'] == 'Spanish') { ?>
+					<h3>Página no encontrada.</h3>
 				<?php } else { ?>
 				    <h3>Seite nicht gefunden</h3>
 				<?php } ?>

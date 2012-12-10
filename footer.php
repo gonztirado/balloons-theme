@@ -16,6 +16,9 @@
 				<?php if ( ($balloons_option['balloons_select-language'] == 'English') OR ($balloons_option['balloons_select-language'] == '') ) { ?>
 					Balloons theme by<br />
 					<a href="http://moargh.de">Moargh.de</a>
+				<?php } else if ($balloons_option['balloons_select-language'] == 'Spanish') { ?>
+					Balloons theme creado por<br />
+					<a href="http://moargh.de">Moargh.de</a>	
 				<?php } else {  ?>
 					Balloons Template von<br />
 					<a href="http://moargh.de">Moargh.de</a>
