@@ -1,7 +1,7 @@
 Balloons WordPress Theme
 
-Version: 1.1
-Erscheinungsdatum: Januar 2012
+Version: 1.2
+Erscheinungsdatum: Dezember 2012
 
 Von Moargh.de
 http://www.moargh.de
@@ -10,7 +10,7 @@ ___
 
 
 
-»Balloons« ist ein einspaltiges Layout mit Parallax-Scrolling-Effekt. Der Footer ist mittels Widgets anpassbar. Es ist responsive, d.h. es passt sich der Auflösung der Besucher an (Computer / Tablet / Smartphone). Die Link-Farben können im WordPress-Backend angepasst werden und ein Stylesheet für das WP-Pagenavi-Plugin ist integriert. Es kann zwischen Englisch und Deutsch als Frontend-Sprache gewechselt werden.
+»Balloons« ist ein einspaltiges Layout mit Parallax-Scrolling-Effekt. Der Footer ist mittels Widgets anpassbar. Es ist responsive, d.h. es passt sich der Auflösung der Besucher an (Computer / Tablet / Smartphone). Die Link-Farben können im WordPress-Backend angepasst werden und ein Stylesheet für das WP-Pagenavi-Plugin ist integriert. Es kann zwischen Englisch, Deutsch und Spanisch als Frontend-Sprache gewechselt werden.
 
 
 
@@ -18,7 +18,7 @@ Besonderheiten
 --------------
 
 - »Theme Options«-Seite zur einfachen Anpassung
-- Zwei mögliche Frontend-Sprachen: Englisch / Deutsch
+- Drei mögliche Frontend-Sprachen: Englisch / Deutsch / Spanisch
 - Möglichkeit zur Farbänderung
 - Anpassbarer Footer mittels Widgets
 - WP-Pagenavi-Stylesheet

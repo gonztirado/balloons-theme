@@ -6,13 +6,11 @@ Released: December 2012
 By Moargh.de
 http://www.moargh.de
 
-Spanish translation by @gonz_tirado
-
 ___
 
 
 
-'Balloons' is a one-column layout with parallax-scrolling effect. It comes with a tiny color switcher and a three-column widgetized footer. It is responsive to your visitor�s screen size (computer / tablet / mobile phone) and a stylesheet for the WP-Pagenavi plugin is included; available in English and German.
+'Balloons' is a one-column layout with parallax-scrolling effect. It comes with a tiny color switcher and a three-column widgetized footer. It is responsive to your visitor�s screen size (computer / tablet / mobile phone) and a stylesheet for the WP-Pagenavi plugin is included; available in English, German and Spanish.
 
 
 
@@ -20,7 +18,7 @@ Features
 --------------
 
 - Theme Options page for easy customization
-- Two frontend languages: English / German / Spanish
+- Three frontend languages: English / German / Spanish
 - Tiny color switcher
 - Three column widgetized footer
 - Stylesheet for WP-Pagenavi included

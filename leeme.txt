@@ -1,0 +1,36 @@
+Balloons WordPress Theme
+
+Version: 1.2
+Actualizado: December 2012
+
+Por Moargh.de
+http://www.moargh.de
+
+Traducción al español por @gonz_tirado
+
+___
+
+
+
+'Balloons' es un tema con layout de una calumna y efecto parallax-scrolling. Viene con un pequeño selector de colores y un pie de tres columnas. El diseño se adapta al tamaño de pantalla de los visitantes (ordenador / tablet / telefono móvil) y está añadida la hoja de estilo del plugin WP-Pagenavi; está disponible en Inglés, Alemán y Español.
+
+
+Caracteristicas
+---------------
+
+- Opciones de tema para una fácil personalización.
+- Tres lenguajes soportados: Inglés / Alemán / Español
+- Widget para el pie de página de tres columnas
+- Hoja de estilo para WP-Pagenavi incluida
+- Menú personalizado
+- Diseño adaptativo que se ajusta al tamaño del navegador y teléfonos móviles
+  ...
+  
+
+
+Instalación
+-----------
+
+Usa la herramienta de instalación incluida en WordPress (Appearance � Themes) o copia la carpeta 'balloons' en /wp-content/themes/ y activalo
+
+Testeado en las últimas versiones de Firefox, Safari, Chrome, Opera y Internet Explorer 8/9.
