@@ -6,7 +6,7 @@
 				<?php if ( ($balloons_option['balloons_select-language'] == 'English') OR ($balloons_option['balloons_select-language'] == '') ) { ?>
 					<h2>Categories</h2>
 				<?php } else if ($balloons_option['balloons_select-language'] == 'Spanish') { ?>
-					<h2>Categorias</h2>
+					<h2>Categorías</h2>
 				<?php } else { ?>
 					<h2>Kategorien</h2>
 				<?php } ?>
