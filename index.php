@@ -27,7 +27,9 @@
 					<p class="meta">
 					
 							<?php if ( ($balloons_option['balloons_select-language'] == 'English') OR ($balloons_option['balloons_select-language'] == '') ) { 
-    							comments_popup_link(__('Comments (0)'), __('Comments (1)'), __('Comments (%)'));
+    							comments_popup_link(__('Comments (0)'), __('Comments (1)'), __('Comments (%)'));							
+							} else if ($balloons_option['balloons_select-language'] == 'Spanish') {
+								comments_popup_link(__('Comentarios (0)'), __('Comentario (1)'), __('Comentarios (%)'));	
     						} else { 
     							comments_popup_link(__('Kommentar (0)'), __('Kommentare (1)'), __('Kommentare (%)'));
     						} ?> 
